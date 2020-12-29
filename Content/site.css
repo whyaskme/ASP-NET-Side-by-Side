@@ -1,0 +1,13 @@
+﻿
+#div-menu-container {
+    border-bottom: solid 1px #808080;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-item {
+    border-right: solid 1px #808080;
+    margin-right: 15px;
+    padding-right: 15px;
+}
