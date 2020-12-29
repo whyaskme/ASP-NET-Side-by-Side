@@ -25,7 +25,7 @@
             </div>
 
             <h1>WebForm Page</h1>
-            <span id="session-test-data">SessionData > <% Session["SessionData"] %></span>
+            <span id="session-test-data">SessionData > <% =Session["SessionData"] %></span>
         </div>
     </form>
 </body>

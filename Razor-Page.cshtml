@@ -19,15 +19,21 @@
         </a>
     </div>
 
-    <a href="https://www.learnrazorpages.com/razor-pages/session-state">
-        Session State in Razor Pages
-    </a>
-
-    <a href="https://stackoverflow.com/questions/53172970/asp-net-core-razor-pages-session-variable-is-not-accessible-from-other-views-ra">
-        Asp.Net Core Razor pages, session variable is not accessible from other views/razor models
-    </a>
+    <div>
+        References
+        <div>
+            <a href="https://www.learnrazorpages.com/razor-pages/session-state">
+                Session State in Razor Pages
+            </a>
+        </div>
+        <div>
+            <a href="https://stackoverflow.com/questions/53172970/asp-net-core-razor-pages-session-variable-is-not-accessible-from-other-views-ra">
+                Asp.Net Core Razor pages, session variable is not accessible from other views/razor models
+            </a>
+        </div>
+    </div>
 
     <h1>Razor Page</h1>
-    <span id="session-test-data">SessionData > ???</span>
+    <span id="session-test-data">SessionData > <% =Session["SessionData"] %></span>
 </body>
 </html>
