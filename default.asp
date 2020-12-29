@@ -20,7 +20,11 @@
         </a>
     </div>
 
-    <h1>Classic ASP Page Shared Session Variable Test</h1>
-    <span id="session-test-data">Session Test Data</span>
+    <%
+        Session("SessionData") = "Donald Duck was here..."
+    %>
+
+    <h1>Classic ASP Page</h1>
+    <span id="session-test-data">SessionData > <% =Session("SessionData") %></span>
 </body>
 </html>

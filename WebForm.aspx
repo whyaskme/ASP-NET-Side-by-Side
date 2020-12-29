@@ -24,8 +24,8 @@
                 </a>
             </div>
 
-            <h1>WebForm Page Shared Session Variable Test</h1>
-            <span id="session-test-data">Session Test Data</span>
+            <h1>WebForm Page</h1>
+            <span id="session-test-data">SessionData > <% Session["SessionData"] %></span>
         </div>
     </form>
 </body>
